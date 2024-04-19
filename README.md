@@ -3,30 +3,6 @@
 <br><br>
 
 
-## Table of Contents
-- [Project - FlappyBird2D](#projectb---flappybird2d)
-  - [Table of Contents](#table-of-contents)
-  - [Requirements](#requirements)
-  - [How to get repository clone?](#how-to-get-repository-clone)
-  - [How to Generate Visual Studio Solution?](#how-to-generate-visual-studio-solution)
-    - [Visual Studio 2019](#visual-studio-2019)
-    - [Visual Studio 2022](#visual-studio-2022)
-  - [How to Build Solution?](#how-to-build-solution)
-    - [Debug](#debug)
-    - [Release](#release)
-    - [RelWithDebInfo](#relwithdebinfo)
-    - [MinSizeRel](#minsizerel)
-  - [How to Package Project?](#how-to-package-project)
-    - [Debug](#debug-1)
-    - [Release](#release-1)
-    - [RelWithDebInfo](#relwithdebinfo-1)
-    - [MinSizeRel](#minsizerel-1)
-  - [How to Play Game?](#how-to-play-game)
-  - [License](#license)
-
-<br><br>
-
-
 ## Requirements
 - Windows 10/11 Home/Pro
 - [Git](https://git-scm.com/)
