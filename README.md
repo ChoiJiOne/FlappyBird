@@ -1,4 +1,4 @@
-# ProjectB - FlappyBird2D
+# Project - FlappyBird2D
 - 2D 플래피 버드(FlappyBird2D) 게임 구현 프로젝트입니다.
 <br><br>
 
@@ -41,7 +41,7 @@
 `CMD` 혹은 `PowerShell`에서 다음 명령어를 수행하시면 리포지토리의 복사본을 얻을 수 있습니다.
 
 ```PowerShell
-git clone https://github.com/ChoiJiOne/ProjectB_FlappyBird2D --single-branch -b develop
+git clone https://github.com/ChoiJiOne/Project_FlappyBird2D
 ```
 <br><br>
 
@@ -52,13 +52,11 @@ git clone https://github.com/ChoiJiOne/ProjectB_FlappyBird2D --single-branch -b 
 
 ### Visual Studio 2019 
 ```
-cd ProjectB
 GenerateProjectFiles_vs2019.bat
 ```
 
 ### Visual Studio 2022
 ```
-cd ProjectB
 GenerateProjectFiles_vs2022.bat
 ```
 
@@ -135,12 +133,6 @@ Package_MinSizeRel.bat
 
 > 위의 스크립트 모두 `CMD` 혹은 `PowerShell`에서 실행하지 않고 그냥 실행해도 동작합니다.
 
-<br><br>
-
-
-## How to Play Game?
-
-이 프로젝트의 게임을 플레이 하기 위해서는 [여기](https://github.com/ChoiJiOne/ProjectB_FlappyBird2D/releases/tag/release)에서 `FlappyBird2D-win64.exe`를 다운로드 받은 후에 해당 파일을 실행해서 설치를 진행합니다. 그 다음 설치한 폴더에 있는 `FlappyBird2D.exe`를 실행하면 게임을 실행할 수 있습니다. 게임을 시작하면 마우스 우클릭으로 버튼과 점프를 수행할 수 있습니다.
 <br><br>
 
 
