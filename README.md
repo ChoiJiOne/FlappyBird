@@ -4,7 +4,7 @@
 
 
 ## Table of Contents
-- [ProjectB - FlappyBird2D](#projectb---flappybird2d)
+- [Project - FlappyBird2D](#projectb---flappybird2d)
   - [Table of Contents](#table-of-contents)
   - [Requirements](#requirements)
   - [How to get repository clone?](#how-to-get-repository-clone)
