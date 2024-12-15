@@ -1,8 +1,8 @@
 cmake_minimum_required(VERSION 3.27)
 
-project(FlappyBird2D)
+project(FlappyBird)
 
-set(PROJECT_NAME "FlappyBird2D")
+set(PROJECT_NAME "FlappyBird")
 
 set(CMAKE_CXX_STANDARD 17)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -107,7 +107,7 @@ target_compile_definitions(
     $<$<CONFIG:MinSizeRel>:SHIPPING_MODE>
 )
 
-set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS "/level='requireAdministrator' /uiAccess='false'")
+# set_target_properties(${PROJECT_NAME} PROPERTIES LINK_FLAGS "/level='requireAdministrator' /uiAccess='false'")
 set_property(TARGET ${PROJECT_NAME} PROPERTY MSVC_RUNTIME_LIBRARY "MultiThreaded$<$<CONFIG:Debug>:Debug>")
 set_property(TARGET ${PROJECT_NAME} PROPERTY VS_DEBUGGER_WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${PROJECT_NAME})
@@ -119,8 +119,8 @@ source_group(Script FILES ${SCRIPT_SOURCE_FILE})
 source_group(Shader FILES ${SHADER_SOURCE_FILE})
 
 set(CPACK_GENERATOR "NSIS")
-set(CPACK_NSIS_MUI_ICON ${CMAKE_CURRENT_SOURCE_DIR}/Resource/Icon/favicon.ico)
-set(CPACK_NSIS_MUI_UNIICON ${CMAKE_CURRENT_SOURCE_DIR}/Resource/Icon/favicon.ico)
+set(CPACK_NSIS_MUI_ICON ${CMAKE_CURRENT_SOURCE_DIR}\\\\Resource\\\\Icon\\\\favicon.ico)
+set(CPACK_NSIS_MUI_UNIICON ${CMAKE_CURRENT_SOURCE_DIR}\\\\Resource\\\\Icon\\\\favicon.ico)
 set(CPACK_NSIS_MUI_HEADERIMAGE  ${CMAKE_CURRENT_SOURCE_DIR}\\\\Resource\\\\Texture\\\\Header.bmp)
 set(CPACK_NSIS_MUI_HEADERIMAGE_UNBITMAP  ${CMAKE_CURRENT_SOURCE_DIR}\\\\Resource\\\\Texture\\\\Header.bmp)
 set(CPACK_NSIS_MUI_WELCOMEFINISHPAGE_BITMAP ${CMAKE_CURRENT_SOURCE_DIR}\\\\Resource\\\\Texture\\\\Install.bmp)
@@ -140,7 +140,7 @@ install(TARGETS ${PROJECT_NAME} DESTINATION .)
 set(CPACK_PACKAGE_NAME ${PROJECT_NAME})
 set(CPACK_PACKAGE_VERSION "0.0.0")
 set(CPACK_PACKAGE_VENDOR "Github-ChoiJiOne")
-set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "https://github.com/ChoiJiOne/ProjectB_FlappyBird2D")
+set(CPACK_PACKAGE_DESCRIPTION_SUMMARY "https://github.com/ChoiJiOne/FlappyBird")
 set(CPACK_PACKAGE_INSTALL_DIRECTORY ${PROJECT_NAME})
 set(CPACK_PACKAGE_EXECUTABLES ${PROJECT_NAME} ${PROJECT_NAME})
 
