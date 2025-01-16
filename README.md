@@ -17,11 +17,3 @@
 
 ## IDLE
 - [Visual Studio 2022](https://visualstudio.microsoft.com/ko/)
-
-## How to get repository clone?
-
-You can obtain a copy of the repository using the following command.
-
-```
-git clone https://github.com/ChoiJiOne/FlappyBird.git
-```
