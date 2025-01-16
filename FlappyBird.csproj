@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.Data.Sqlite" Version="9.0.1" />
+    <PackageReference Include="Microsoft.Diagnostics.NETCore.Client" Version="0.2.553101" />
     <PackageReference Include="Raylib-cs" Version="7.0.0" />
   </ItemGroup>
 
